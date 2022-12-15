@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin:1px;
+    background-color: #2a2b40;
+    color:azure;
+  }
+   /* Hide scrollbar for Chrome, Safari and Opera */
+   body::-webkit-scrollbar {
+    display: none;
+    }
+    /*linken in navigatiebar*/
+  .button{
+    background-color: rgb(70, 241, 241);
+    color: rgb(0, 0, 0);
+  }
+  .button:hover,#link:hover{
+    background-color: rgb(70, 241, 241);
+    color:black;
+    font-weight: bold;
+  }
+  #linkC{
+    color:azure;
+  }
+  #linkC:hover{
+    color: Red;
+  }
+  .form-column{
+    width: 100%;
+  }
+  .container{
+    width: 100%;
+    background-image: url('https://partyflock.nl/images/party/356286_960x480_478956/Who-are-you.jpg');
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center;
+  }
+  #first{
+    margin-top: 10px;
+  }
+  /*Textarea vormgeving*/
+  .text{
+    width: 96%;
+    height: 200px;
+    border-radius: 5px;
+    margin-left:16px;
+  }
+  .selectlabel{
+    border-radius:5px;
+  }
+  .btn{
+    margin-left: 16px;
+    margin-bottom: 10px;
+  }
+  #validationTooltip01,#validationTooltip02,
+  #validationTooltip03,#validationTooltip04,
+  #validationTooltip05,#email,.text,#select{
+    background-color: #2a2b40;
+    color: azure;
+  }
+  
+  label{
+    color:#2a2b40;
+  }
+  #vraag{
+    margin-left: 16px;
+  }
+  /*Lijn boven footer*/
+  hr{
+    float:left;
+    border:2px solid azure;
+    width: 100%;
+  }
+  /*Linkdin*/
+  #logo1{
+    width: 10%;
+    height: 10%;
+    margin-left: 40%;
+  }
+  /*instagram*/
+  #logo2{
+    width: 10%;
+    height: 10%;
+    margin-left: 10px;
+  }
+  /*CopyRight*/
+  #cr{
+    text-align: center;
+    font-size: large;
+  }  
+  /*Footer*/
+  .column-1,.column-2 {
+    float: left;
+    width: 46%;
+    padding: 15px;
+    margin: 10px;   
+  }
+  @media screen and (max-width: 500px){
+    .img,.column-1,.column-2{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+        margin-top: 15px;
+        overflow:hidden;
+        background:#2a2b40;
+        background-image: none;
+    }
+    label{
+        color:azure;
+      }
+    .text{
+        width: 93%;
+        border-radius: 5px;
+    }
+    #validationTooltip01,#validationTooltip02,
+    #validationTooltip03,#validationTooltip04,
+    #validationTooltip05,#email,.text,#select{
+    background-color: azure;
+    color: #2a2b40;
+  }
+    
+  }
+  /* Default height for small devices */
+  #intro-example {
+    height: 400px;
+  }
+
+  /* Height for devices larger than 992px */
+  @media (min-width: 992px) {
+    #intro-example {
+      height: 600px;
+    }
+    .container{
+        width: 100%;
+        background-image: url('https://partyflock.nl/images/party/356286_960x480_478956/Who-are-you.jpg');
+            background-repeat: no-repeat;
+            background-size:cover;
+            background-position:center;
+    }
+  }
